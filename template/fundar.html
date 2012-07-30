@@ -1,0 +1,50 @@
+<!DOCTYPE HTML>
+<html lang="es-ES">
+<head>
+	<meta charset="utf-8" />
+	<title>checatuley.org - </title>
+
+	<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	
+</head>
+
+<body>
+	<div id="container">
+		<header>
+			<a href="./index.html">
+				<img src="img/IDAIM-logo.jpg" alt="IDAIM" id="banner">
+			</a>
+			<ul id="menu_principal">
+				<a href="./quienes.html"> <li id="quienes">QUIÉNES SOMOS</li></a> 
+				<a href="./index.html"> <li id="indice">ÍNDICE </li></a>
+				<a href="./article.html"> <li id="art19">ARTICLE 19 </li></a>
+				<a href="./fundar.html"> <li id="fundar">FUNDAR </li></a>
+				<a href="./contacto.html"> <li id="contacto">CONTACTO </li></a>
+			</ul>
+			<h1 class="titulo" id="page"></h1>
+		</header>
+
+		<section>
+		</section>
+
+		<footer>
+			<img src="img/Fundar-logo.jpg" alt="Fundar" id="fundar">
+			<img src="img/Art19-logo.jpg" alt="Article 19" id="art19">
+			<div id="copyright">
+				<img src="img/copyright.jpg" alt="Article 19" id="art19">
+			</div>
+		</footer>
+	</div>
+	<!--Scripts-->
+		<script src="js/jquery-ui.js" type="text/javascript" charset="utf-8"></script>		
+		<script src="js/functions.js" type="text/javascript" charset="utf-8"></script>	
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+			showTitle("#page", "FUNDAR");
+		})
+		</script>
+
+</body>
+</html>

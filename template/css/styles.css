@@ -1,0 +1,261 @@
+/* reset, base y fonts*/
+h1{font-size:138.5%}h2{font-size:123.1%}h3{font-size:108%}h1,h2,h3{margin:1em 0}h1,h2,h3,h4,h5,h6,strong{font-weight:bold}abbr,acronym{border-bottom:1px dotted #000;cursor:help}em{font-style:italic}blockquote,ul,ol,dl{margin:1em}ol,ul,dl{margin-left:2em}ol{list-style:decimal outside}ul{list-style:disc outside}dl dd{margin-left:1em}th,td{border:1px solid #000;padding:.5em}th{font-weight:bold;text-align:center}caption{margin-bottom:.5em;text-align:center}p,fieldset,table,pre{margin-bottom:1em}input[type=text],input[type=password],textarea{width:12.25em;*width:11.9em}#yui3-css-stamp.cssbase{display:none}
+
+
+@font-face {  font-family: Anton;
+    		  src: url('Anton.ttf') format("truetype");  }
+
+body, html {
+	padding: 0;
+	margin: 0;	
+	font-family: 'Anton', 'Arial';
+}
+
+header{
+	width:900px;
+	height:160px;
+	display: block;
+	padding: 0px;
+	margin: 0px;
+}
+header a, header a:hover {
+	float:left;
+	text-decoration:none;
+	color:#fff;
+}
+
+img#banner{
+	margin-bottom: 40px;
+}
+
+ul#menu_principal{
+	float:right;
+	max-width:290px;
+	margin:0px;
+}
+ul#menu_principal a{
+	float:right;
+}
+
+ul#menu_principal li{
+	font-family: 'Anton', 'Arial';
+	list-style:none;
+	text-decoration:none;
+	cursor: pointer;
+	font-size:0.85em;
+	color:#fff;
+	text-align:right;
+	padding: 0px 4px;
+	float:right;
+}
+
+
+ul#menu_principal li#quienes{
+	background-color:#00b1b0;
+	min-width:280px;
+}
+ul#menu_principal li#indice{
+	background-color:#00bdbe;
+	min-width:240px;
+
+}
+ul#menu_principal li#art19{
+	background-color:#33cacb;
+	min-width:150px;
+}
+ul#menu_principal li#fundar{
+	background-color:#66d7d8;
+	min-width:220px;
+}
+ul#menu_principal li#contacto{
+	background-color:#9ae5e5;
+	min-width:250px;
+}
+
+.menu_hover{
+	background-color:#ccc;
+}
+
+section {
+	display: block;
+	min-width: 720px;
+	width:auto;
+	height:380px;
+	margin-bottom:40px;
+}
+
+#svg2{
+	max-width: 350px;
+	float:left;
+	margin-left:25px;
+}
+	
+#container {
+	width: 900px;
+	height: 404px;
+	margin: 35px auto;
+}
+
+.info{
+	min-width: 320px;
+	min-height: 400px;
+	margin:1px;
+	padding: 1px;
+	float:right;
+	/*background-color: rgba(200,200,200,0.7);*/
+    color: #222;
+}
+
+#infoEstado{
+	display: none;
+}
+#infoGral {
+	display: block;
+	
+}
+
+#infoGral .content {
+	min-height:auto;
+	min-width:auto;
+	display:block;
+}
+
+#infoGral .content #escala{
+	min-height:295px;
+	display: block;
+
+}
+
+#infoGral .content #descripcion{
+	min-height:45px;
+	display: block;
+
+}
+
+.titulo{
+	display:block;
+	text-align:left;
+	color:#00b1b0;
+}
+
+#estado{
+	font-size:2.3em;
+	border-bottom:1px solid #00b1b0;
+	padding-bottom: -5px;
+}
+#page{
+	position: absolute;
+	margin: 100px 0px 0px 0px;
+	font-size: 3em;
+	font-weight: normal;
+	height: 70px;
+	padding-left: 30px;
+}
+
+#menu{
+	float:left;
+	width:10px;
+	padding: 0px;
+	margin: 0px;
+	height:350px;
+	z-index:-1;
+}
+
+#menu li{
+	list-style:none;
+	text-decoration:none;
+	cursor: pointer;
+	text-align: center;
+	-webkit-transform: rotate(90deg);	
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+	margin: 40px -15px;
+	height: 0px;
+	padding: 8px 0px 8px 3px;
+	width: 50px;
+	z-index:0;
+	font-size:1em;
+	font-weight:normal;
+	color:#555;
+}
+
+#menu li#li-uno{
+	background-color: rgba(0, 177, 176, 0.6);
+}
+#menu li#li-dos{
+	background-color: rgba(0, 189, 190, 0.6);
+}
+#menu li#li-tres{
+	background-color: rgba(51, 202, 203, 0.6);
+}
+#menu li#li-cuatro{
+	background-color: rgba(102, 215, 216, 0.6);
+}
+#menu li#li-cinco{
+	background-color: rgba(154, 229, 229, 0.6);
+}
+
+
+#menu li#li-uno:hover{
+	background-color: rgba(0, 177, 176, 1);
+}
+#menu li#li-dos:hover{
+	background-color: rgba(0, 189, 190, 1);
+}
+#menu li#li-tres:hover{
+	background-color: rgba(51, 202, 203, 1);
+}
+#menu li#li-cuatro:hover{
+	background-color: rgba(102, 215, 216, 1);
+}
+#menu li#li-cinco:hover{
+	background-color: rgba(154, 229, 229, 1);
+}
+
+.content{
+	display:none;
+	float: left;
+	padding: 10px 0px 0px 15px;
+	margin:0px;
+	min-width:300px;
+	min-height:350px;
+	z-index:3;
+}
+
+.content div{
+	border-bottom:1px solid #00b1b0;
+}
+
+.content #img-estado{
+	min-height:165px;
+}
+
+.content .indice{
+	min-height:85px;
+}
+
+#uno{
+	display:inline-block;
+}
+
+.Estado{
+	cursor: pointer;
+}
+
+
+.Estado:hover{
+	border:3px;
+}
+
+footer img{
+	float:left; 
+	margin-right:10px;
+}
+
+footer #copyright{
+	padding: 5px 5px 5px 20px;
+	float:left;
+	max-width:590px
+}

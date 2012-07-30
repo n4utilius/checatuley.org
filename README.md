@@ -1,0 +1,1 @@
+Visualización del índice de Derecho al acceso a la información
